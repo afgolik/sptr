@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спецстрой</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row header-flex">
+                    <a href="/" class="header__logo">
+                        <img src="img/logo.png" alt="Спецстрой">
+                    </a>
+                    <div class="header__top-right d-flex">
+                        <div id="headerSearchShow" class="header__top-search d-flex">
+                            <img src="img/icons/search.svg">
+                            <div class="header__top-text">Поиск</div>
+                        </div>
+                        <div class="header__top-divider"></div>
+                        <div class="header__top-phone">
+                            +7 (495) 221-61-40
+                        </div>
+                        <div class="header__top-phone header__top-phone-min">
+                            <a href="tel:+74952216140">
+                                <span>+7 (495) 221-61-40</span>
+                                <img src="img/icons/call.svg">
+                            </a> 
+                        </div>
+                        <div class="header__top-burger">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div id="headerSearch" class="search">
+                        <div class="search__container">
+                            <input type="text" class="search__input input_30 header-text" placeholder="Поиск">
+                            <img id="headerSearchClose" src="img/icons/close.svg" class="search__close">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="row header-flex">
+                    <div id="headerCatalogOpen" class="d-flex header__bottom-left">
+                        <div class="d-flex header__bottom-catalog">
+                            <div class="header__bottom-burger">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="header__bottom-text">Каталог товаров</div>
+                            <div class="header__bottom-chevron">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 4.5L6 7.5L9 4.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="header__bottom-menu">
+                            <ul>
+                                <li><a href="catalog.html"><img src="img/menu/1.png" alt=""> <span>Потолочные системы</span></a></li>
+                                <li><a href="catalog.html"><img src="img/menu/2.png" alt=""> <span>Настенные покрытия</span></a></li>
+                                <li><a href="catalog.html"><img src="img/menu/3.png" alt=""> <span>Напольные покрытия</span></a></li>
+                                <li><a href="catalog.html"><img src="img/menu/3.png" alt=""> <span>Фальшпол</span></a></li>
+                                <li><a href="catalog.html"><img src="img/menu/4.png" alt=""> <span>Сухие смеси</span></a></li>
+                                <li><a href="catalog.html"><img src="img/menu/5.png" alt=""> <span>Теплоизоляция</span></a></li>
+                                <li><a href="catalog.html"><img src="img/menu/6.png" alt=""> <span>Чистые помещения</span></a></li>
+                                <li><a href="catalog.html"><img src="img/menu/7.png" alt=""> <span>Вентилируемые фасады</span></a></li>
+                                <li><a href="catalog.html"><img src="img/menu/8.png" alt=""> <span>Материалы для сухого строительства</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__bottom-right d-flex">
+                        <div class="header__bottom-list">
+                            <ul class="d-flex">
+                                <li class="header__bottom-item">
+                                    <a href="about.html" class="header__bottom-li">О компании</a>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3 4.5L6 7.5L9 4.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <div class="header__bottom-menu-hover">
+                                        <ul>
+                                            <li><a href="partners.html">Партнеры</a></li>
+                                            <li><a href="#">Объекты</a></li>
+                                            <li><a href="news.html">Новости</a></li>
+                                            <li><a href="contacts.html">Контакты</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="header__bottom-item">
+                                    <span class="header__bottom-li">Библиотека</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3 4.5L6 7.5L9 4.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <div class="header__bottom-menu-hover">
+                                        <ul>
+                                            <li><a href="#">Калькуляторы</a></li>
+                                            <li><a href="certificates.html">Сертификаты</a></li>
+                                            <li><a href="#">АТР</a></li>
+                                            <li><a href="catalog.html">Каталоги</a></li>
+                                            <li><a href="#">Полезное</a></li>
+                                            <li><a href="#">Обучение</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="header__bottom-item"><a class="header__bottom-li" href="contacts.html">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__bottom-btn btn btn-medium btn-yellow">Распродажа</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-space"></div>
+
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="breadcrumbs__content d-flex d-md-flex d-none">
+                        <li><a href="/" class="breadcrumbs__text">Главная</a></li>
+                        <li><div class="breadcrumbs__text">О компании</div></li>
+                    </ul>
+                    <div class="breadcrumbs__select select__container d-md-none">
+                        <div class="select"><span>О компании</span> 
+                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 9.5L7.5 6.5L4.5 3.5" stroke="#282D3C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="select__options">
+                            <a href="" class="select__option">О компании</a>
+                            <a href="/" class="select__option">Главная</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="company">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="company__title page-title">Информация о компании</div>
+                    <div class="company__text">«СПЕЦСТРОЙ–Р» основана в 1991 году и является одной из крупнейших компаний, <br> занимающихся комплексными поставками строительных и отделочных материалов <br> 
+                        на российском рынке.</div>
+                </div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="container table__container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table__items">
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">Наименование</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>ООО «СПЕЦСТРОЙ-Р»</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">Генеральный директор</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>Васюк Сергей Николаевич</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">ИНН</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>7724405942</span>
+                                    <img src="img/icons/copy.svg">
+                                </div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">КПП</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>772401001</span>
+                                    <img src="img/icons/copy.svg">
+                                </div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">ОГРН</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>1177746322258</span>
+                                    <img src="img/icons/copy.svg">
+                                </div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">ОКПО</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>13091794</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">БИК</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>044525600</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">ОКВЭД</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>46.9</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">ОКАТО</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>45296553000</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">Юридический адрес</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>115404, г. Москва, ул. 6-я Радиальная, <br> д. 28, стр. 11, кабинет 1</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">Расчетный счет</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>40702810700990000814, <br>
+                                    Банк ПАО «МИнБанк» <br>
+                                    г. Москва</span>
+                                    <img src="img/icons/copy.svg">
+                                </div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">Корреспондентский счет</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>30101810300000000600</span>
+                                    <img src="img/icons/copy.svg">
+                                </div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">Контактный телефон</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>+7 (495) 221-61-40</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">E-mail</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>info@sptr.ru</span></div>
+                            </div>
+                            <div class="table__item">
+                                <div class="table__item-left">
+                                    <div class="table__item-title">Сайт</div>
+                                    <div class="table__item-border"></div>
+                                </div>
+                                <div class="table__item-right"><span>www.sptr.ru</span></div>
+                            </div>
+                            <a href="#" class="table__file">
+                                <img src="img/icons/pdf.svg">
+                                <span>Реквизиты ООО «СПЕЦСТРОЙ-Р»</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="services__title page-title">Большой спектр услуг</div>
+                    <div class="services__text">«СПЕЦСТРОЙ–Р» основана в 1991 году и является одной из крупнейших компаний, <br> занимающихся комплексными поставками строительных и отделочных материалов <br>
+                        на российском рынке.</div>
+                    <div class="services__subtitle">Архитекторам и проектировщикам</div>
+                    <ul class="services__list">
+                        <li>Квалифицированную помощь в подготовке спецификаций по основным разделам проекта</li>
+                        <li>Проведение презентаций в офисах и на объектах</li>
+                        <li>Технические консультации в применении материалов</li>
+                        <li>Расчеты потолков, перегородок, фасадов</li>
+                        <li>Проектный сервис</li>
+                    </ul>
+                    <div class="services__subtitle">Строительным организациям</div>
+                    <ul class="services__list">
+                        <li>Комплектация объектов в полном объем</li>
+                        <li>Технические консультации в применении материалов</li>
+                        <li>Выполнение субподрядных работ</li>
+                        <li>Контрактные поставки эксклюзивных материалов</li>
+                    </ul>
+                    <div class="services__subtitle">Оптовым покупателям</div>
+                    <ul class="services__list">
+                        <li>Организации доставок по России и СНГ</li>
+                        <li>Индивидуальную ценовую политику для каждого клиента</li>
+                        <li>Программы обучения и тематические семинары</li>
+                        <li>Рекламную поддержку по продвижению отделочных материалов</li>
+                        <li>Бронирование товара</li>
+                        <li>Гарантию поставщика и производителя</li>
+                        <li>Бонусные программы и системы скидок</li>
+                    </ul>
+                    <div class="services__subtitle">Рознице</div>
+                    <ul class="services__list">
+                        <li>Заказ продукции прямо на нашем сайте</li>
+                        <li>Бонусные программы и системы скидок</li>
+                        <li>Квалифицированную помощь специалистов розничного отдела</li>
+                    </ul>
+                    <div class="services__text services__text-buttom">Так же компания «Спецстрой-Р» производит поставки в торгующие организации, баумаркеты
+                        и розничные сети.</div>
+                    <div class="services__title page-title">Условия отгрузки</div>
+                    <ul class="services__list services__list-buttom">
+                        <li>Оплата в рублях</li>
+                        <li>Заказ кратен заводской упаковке</li>
+                    </ul>
+                    <a href="#" class="table__file services__file">
+                        <img src="img/icons/pdf.svg">
+                        <span>Cводные данные о результатах проведения специальной оценки условий труда</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main__about about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 main__about-title">ООО «Спецстрой-Р» – один из лидеров отечественного строительного рынка</div>
+                <div class="col-lg-6 col-12 main__about-text">Мы пристально следим за тенденциями развития рынка стройматериалов и предлагаем клиентам современные, инновационные решения для строительства.</div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="about__item about__item-first">
+                        <div class="about__item-img"><img src="img/icons/about-1.png" alt="Команда профессионалов"></div>
+                        <div class="about__item-title">Команда профессионалов</div>
+                        <div class="about__item-text">Мы обеспечиваем сервис на самом высоком уровне</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="about__item">
+                        <div class="about__item-img"><img src="img/icons/about-2.svg" alt="Более 30 лет на рынке РФ"></div>
+                        <div class="about__item-title">Более 30 лет <br> на рынке РФ</div>
+                        <div class="about__item-text">Реализация материалов оптом и в розницу</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="about__item">
+                        <div class="about__item-img"><img src="img/icons/about-3.svg" alt="Шоу-рум в Москве"></div>
+                        <div class="about__item-title">Шоу-рум <br> в Москве</div>
+                        <div class="about__item-text">Проконсультируем по складскому ассортименту</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="about__item">
+                        <div class="about__item-img"><img src="img/icons/about-4.svg" alt="Широкая клиентская база"></div>
+                        <div class="about__item-title">Широкая <br> клиентская база</div>
+                        <div class="about__item-text">РФ, Республика Беларусь и Казахстана</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="universal main__lib">
+                    <div class="universal__left">
+                        <div class="universal__label">Библиотека</div>
+                        <div class="universal__title">Сертификаты</div>
+                    </div>
+                    <div class="universal__right">
+                        <img src="img/other/lib1.png" alt="Сертификаты">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="universal universal-second main__lib">
+                    <div class="universal__left">
+                        <div class="universal__label">Библиотека</div>
+                        <div class="universal__title">Калькуляторы расчета материалов</div>
+                    </div>
+                    <div class="universal__right">
+                        <img src="img/other/lib2.png" alt="Калькуляторы расчета материалов">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news-block main__news">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="news-block__header d-flex">
+                        <div class="news-block__title">
+                            <img src="img/icons/news.svg">
+                            Новости
+                        </div>
+                        <div class="news-block__all btn btn-white btn-large d-none d-md-block">Все новости</div>
+                    </div>
+                    <div class="news-block__items d-flex">
+                        <a href="#" class="news-block__item">
+                            <div class="news-block__item-title">Решение об изменении отгрузочных цен на ассортимент Ceresit</div>
+                            <div class="news-block__item-text">В настоящий момент производство и поставка продукции продолжается в штатном режиме</div>
+                            <div class="news-block__item-data">16 марта 2022</div>
+                        </a>
+                        <a href="#" class="news-block__item">
+                            <div class="news-block__item-title">Информационное письмо ООО «Сен-Гобен» о повышении цен на материалы</div>
+                            <div class="news-block__item-text">Повышении цен на материалы на территории ЦФО и Москвы</div>
+                            <div class="news-block__item-data">16 марта 2022</div>
+                        </a>
+                        <a href="#" class="news-block__item">
+                            <div class="news-block__item-title">Информационное письмо ООО «Старатели» о пересмотре цен</div>
+                            <div class="news-block__item-text">Досрочное увеличение отпускных цен на продукцию ТМ Старатели с 09.03.2022</div>
+                            <div class="news-block__item-data">16 марта 2022</div>
+                        </a>
+                    </div>
+                    <div class="news-block__all btn btn-white btn-large d-md-none">Все новости</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__header d-flex">
+                        <div class="footer__header-left d-flex">
+                            <div class="footer__header-phone d-none d-lg-block">
+                                +7 (495) 221-61-40
+                            </div>
+                            <a href="tel:+74952216140" class="footer__header-phone d-block d-lg-none">+7 (495) 221-61-40</a>
+                            <div class="footer__header-call btn btn-white btn-large">Перезвоните мне</div>
+                        </div>
+                        <div class="footer__header-right d-flex">
+                            <div class="footer__header-prop">Есть предложения?</div>
+                            <div class="footer__header-btn btn btn-large btn-blue">Написать обращение</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer__menu-items">
+                            <div class="footer__menu-item">
+                                <div class="footer__menu-title">Каталог товаров
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3 4.5L6 7.5L9 4.5" stroke="#007BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <ul class="footer__menu-list">
+                                    <li><a href="#">Потолочные системы</a></li>
+                                    <li><a href="#">Настенные покрытия</a></li>
+                                    <li><a href="#">Напольные покрытия и фальшпол</a></li>
+                                    <li><a href="#">Сухие строительные смеси</a></li>
+                                    <li><a href="#">Материалы для сухого строительства</a></li>
+                                    <li><a href="#">Утеплитель</a></li>
+                                    <li><a href="#">Вентилируемые фасады</a></li>
+                                    <li><a href="#">Чистые помещения INGERMAX</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__menu-item">
+                                <div class="footer__menu-title">Информация
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3 4.5L6 7.5L9 4.5" stroke="#007BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <ul class="footer__menu-list">
+                                    <li><a href="/about.html">О компании</a></li>
+                                    <li><a href="/partners.html">Партнеры</a></li>
+                                    <li><a href="#">Объекты</a></li>
+                                    <li><a href="/news.html">Новости</a></li>
+                                    <li><a href="#">Распродажа</a></li>
+                                    <li><a href="/contacts.html">Контакты</a></li>
+                                    <li><a href="#">Политика конфиденциальности</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__menu-item">
+                                <div class="footer__menu-title">Покупателям
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3 4.5L6 7.5L9 4.5" stroke="#007BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <ul class="footer__menu-list">
+                                    <li><a href="#">Калькуляторы</a></li>
+                                    <li><a href="/certificates.html">Сертификаты</a></li>
+                                    <li><a href="#">Альбом технических решений</a></li>
+                                    <li><a href="/catalog.html">Каталоги</a></li>
+                                    <li><a href="#">Советы экспертов</a></li>
+                                    <li><a href="#">Обучение</a></li>
+                                    <li><a href="#">Поиск по сайту</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__contact-item d-lg-none d-block">
+                                <div class="footer__contact-subscribe subscribe">
+                                    <div class="subscribe__title">Подписаться на новости</div>
+                                    <div class="subscribe__input">
+                                        <input type="text" placeholder="Введите E-mail">
+                                <div class="subscribe__input-btn">
+                                    <img src="img/icons/subscribe_btn.svg">
+                                </div>
+                                    </div>
+                                    <div class="subscribe__subtitle">Нажимая кнопку, вы соглашаетесь с <a href="#">условиями обработки личных данных</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer__contact-items">
+                            <div class="footer__contact-item">
+                                <div class="footer__contact-title">Офис</div>
+                                <div class="footer__contact-text">
+                                    г. Москва, <br>
+                                    ул. 6-я Радиальная, д. 28, стр. 11 <br><br>
+
+                                    Будни 9:00-18:00 <br><br>
+
+                                    <a href="mailto:info@sptr.ru">info@sptr.ru</a> / <a href="tel:+74952216140">+7 (495) 221-61-40</a> 
+                                </div>
+                            </div>
+                            <div class="footer__contact-item">
+                                <div class="footer__contact-title">Склад</div>
+                                <div class="footer__contact-text">
+                                    г. Москва, <br>
+                                    ул. 6-я Радиальная, д. 28, стр. 11 <br><br>
+                                    Будни 8:00-17:00 <br>
+                                    Отгрузка с 17.00 до 20.00 <span>*</span> 
+                                    <p class="footer__contact-blue">* по согласованию с Вашим менеджером</p>
+                                </div>
+                            </div>
+                            <div class="footer__contact-item d-lg-block d-none">
+                                <div class="footer__contact-subscribe subscribe">
+                                    <div class="subscribe__title">Подписаться на новости</div>
+                                    <div class="subscribe__input">
+                                        <input type="text" placeholder="Введите E-mail">
+                                <div class="subscribe__input-btn">
+                                    <img src="img/icons/subscribe_btn.svg">
+                                </div>
+                                    </div>
+                                    <div class="subscribe__subtitle">Нажимая кнопку, вы соглашаетесь с <a href="#">условиями обработки личных данных</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer__copyright-items">
+                            <div class="footer__copyright-item">2015-2022  © «Спецстрой- Р»</div>
+                            <div class="footer__copyright-item">Разработка сайта — 12dots</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="wrape"></div>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
